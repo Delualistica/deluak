@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Delual - Portafolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Menú fijo -->
+  <nav class="navbar">
+    <a href="#arbol">Inicio</a>
+    <a href="#mapa">Mapa</a>
+    <a href="#camara">Galería</a>
+    <a href="#amor">Ciudad del Amor</a>
+    <a href="#stands">Packaging</a>
+    <a href="#mascota">Mascota</a>
+    <a href="#clientes">Clientes</a>
+    <a href="#footer">Contacto</a>
+  </nav>
+
+  <!-- Secciones con ID -->
+  <section id="arbol" class="seccion parallax" style="background-image: url('images/arbol-raices.png');"></section>
+
+  <section id="mapa" class="seccion parallax" style="background-image: url('images/mapa-ciudad.png');"></section>
+
+  <section id="camara" class="seccion parallax" style="background-image: url('images/camara-foto.png');"></section>
+
+  <section class="seccion" style="background-image: url('images/cinta-fotos.png'); height: 30vh;"></section>
+
+  <section id="amor" class="seccion parallax" style="background-image: url('images/ciudad-del-amor.png');"></section>
+
+  <section id="stands" class="seccion parallax" style="background-image: url('images/stands.png');"></section>
+
+  <section id="mascota" class="seccion parallax" style="background-image: url('images/mascota.png'); height: 80vh;"></section>
+
+  <section id="clientes" class="seccion parallax" style="background-image: url('images/clientes.png'); height: 70vh;"></section>
+
+  <footer id="footer" class="footer parallax" style="background-image: url('images/footer.png');">
+    <!-- contenido opcional -->
+  </footer>
+
+</body>
+</html>
